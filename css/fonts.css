@@ -1,0 +1,178 @@
+/*-----------------------------Nunito Sans----------------------------*/
+
+.link,
+.button__header,
+.button,
+.subtitle,
+.text__hotel,
+.text__hotel__mobile,
+.leftsection__subtitle
+.text__camera,
+.request__title,
+.input__info,
+.button_submit,
+.input__agree,
+.container,
+.repairsection_list,
+.planwork__text,
+.planwork__title,
+.planwork__subtitle,
+.planwork__info,
+.planwork__discount__text,
+.fifthsection__link,
+.clients_text,
+.client_text p,
+.questions__subtitle,
+.questions__info {
+	font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.button__header,
+.button {
+	font-style: italic;
+}
+
+.link,
+.button__header,
+.button {
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.request__title,
+.button_submit,
+.repairsection_list,
+.client_text p {
+	font-size: 13px;
+}
+
+.text__hotel,
+.input__info,
+.input__agree,
+.container,
+.planwork__text,
+.planwork__info,
+.questions__info {
+	font-size: 14px;
+}
+
+.request__title,
+.planwork__subtitle,
+.questions__subtitle {
+	line-height: 21px;
+}
+
+.button_submit,
+.repairsection_list {
+	line-height: 27px;
+}
+
+.text__camera,
+.planwork__title,
+.planwork__discount__text,
+.clients_text {
+	font-size: 18px;
+}
+
+.planwork__title,
+.planwork__discount__text {
+	line-height: 26px;
+}
+
+.subtitle {
+	font-size: 22px;
+	line-height: 36px;
+}
+
+.text__hotel {
+	line-height: 27px;
+}
+
+.text__camera {
+	line-height: 37px;
+}
+
+.planwork__text {
+	line-height: 19px;
+}
+
+.fifthsection__link {
+	font-size: 20px;
+	line-height: 38px;
+}
+
+.clients_text {
+	line-height: 29px;
+}
+
+.client_text p {
+	line-height: 23px;
+}
+
+/*-----------------------------Yeseva One----------------------------*/
+.title,
+.title__hotel,
+.subtitle__hotel,
+.link__hotel,
+.thirdsection__text,
+.repair__text,
+.title_clients_header,
+.repairsection_title,
+.repairsection_button,
+.circle__number,
+.fifthsection__left p,
+.client_title h3,
+.left_button,
+.right_button,
+.questions__title,
+.address_text {
+	font-family: Yeseva One, 'Times New Roman' , Times, serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.subtitle__hotel,
+.repairsection_title,
+.repairsection_button,
+.circle__number {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.title__hotel,
+.fifthsection__left p {
+	font-size: 27px;
+	line-height: 37px;
+}
+
+.thirdsection__text,
+.repair__text,
+.title_clients_header,
+.address_text,
+..questions__title {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.title {
+	font-size: 40px;
+	line-height: 53px;
+}
+
+.link__hotel {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.client_title h3 {
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.left_button,
+.right_button {
+	font-size: 17px;
+	line-height: 24px;
+}

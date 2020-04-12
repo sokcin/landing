@@ -1,0 +1,390 @@
+@media (min-width: 2560px) {
+	html  {
+	  display: flex;
+	  flex-flow: row nowrap;  
+	  justify-content: center;
+	  align-content: center;
+	  align-items: center;
+	  height:100%;
+	  margin: 0;
+	  padding: 0;
+	}
+}
+
+@media (max-width: 1300px) {
+	.header__menu a:nth-child(n+2):nth-child(-n+7) {
+		display: none;
+	}
+
+	.header__menu :nth-child(n+2) {
+		color: #FFF;
+		text-decoration: none;
+		margin-left: -60px;
+	}
+
+	.button__header {
+		display: none;
+	}
+
+	.firstsection {
+		padding-left: 0px;
+		justify-content: center;
+		height: 476px;
+	}
+
+	.firstsection__buttons {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.title {
+		margin-top: -30px;
+	}
+
+	.subtitle {
+		margin-bottom: 50px;
+	}
+
+	.button {
+		width: 338px;
+	}
+
+	.button__wrap {
+		margin-top: 26px;
+    	margin-left: 0px;
+	}
+
+	.leftsection {
+		margin-right: 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.title__hotel {
+		margin-top: 36px;
+		text-align: center;
+	}
+
+	.leftsection__subtitle {
+		display: none;
+	}
+
+	.secondsection_slider {
+		margin-top: 0px;
+	}
+
+	.slider {
+		display: none;
+	}
+
+	.text__hotel__mobile {
+		display: block;
+	}
+
+	.slider__mobile {
+		width: 340px;
+		height: 242px;
+		background-image: url(../img/room.png);
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.fantasies__mobile {
+		background-image: url(../img/roommobile.png);
+		margin-top: -155px;
+    	margin-left: 90px;
+
+	}
+
+	.selector_left,
+	.selector_right {
+		display: block;
+		width: 36px;
+		height: 36px;
+	}
+
+	.selector_right {
+		transform: scaleX(-1);
+		margin-left: 200px;
+	}
+
+	.firstcol {
+		margin-right: 30px;
+	}
+
+	.secondcol {
+		margin-right: 73px;
+	}
+
+	.videocontent {
+		width: 340px;
+		height: 207px;
+		background-size: cover;
+	}
+
+	.videocontent__button {
+		width: 37px;
+		height: 37px;
+	}
+
+	.videocontent__play {
+		margin-left: 15px;
+		background-size: 50%;
+		margin-top: 15px;
+		
+	}
+
+	.secondsection {
+		background: #131313;
+	}
+
+	.firstcol__wrap {
+    	padding-right: 80px;
+	}
+
+	.thirdsection {
+		background: #131313;
+		height: 850px;
+	}
+
+	.fourthsection {
+		margin-top: 68px;
+	}
+
+	.fifthsection {
+		margin-top: 0px;
+	}
+
+
+	.fifthsection__left {
+		margin-top: 0px;
+		margin-left: 0px;
+	}
+
+	.fifthsection__left p {
+		text-align: center;
+	}
+
+	.fifthsection__background {
+		display: flex;
+		justify-content: center;
+		background-image: none;
+		height: 200px;
+	}
+
+	.input__forms {
+		flex-direction: column;
+	}
+
+	.text__camera {
+		color: #FFF;
+	}
+
+	.input__info {
+		background: #131313;
+	}
+
+	.request__title {
+		color: rgba(220, 203, 203, 0.5);
+	}
+
+	.input__data {
+		width: 340px;
+	}
+
+	.input__data input::placeholder {
+		color: #FFF;
+	}
+
+	.container {
+		margin-left: -60px;
+		color: #FFF;
+	}
+
+	.text__camera {
+		margin-bottom: 60px;
+	}
+
+	.input__mobile {
+		margin-bottom: 60px;
+	}
+
+	.rightsection {
+		display: none;
+	}
+
+	.repairsections {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.repairsection {
+		margin-right: 0px;
+		margin-bottom: 59px;
+	}
+
+	.repairsection_text {
+		margin-left: 0px;
+	}
+
+	.seventhsection {
+		margin-top: 0px;
+	}
+
+	.eighth_section {
+		background: #131313;
+		height: 800px;
+	}
+
+	.text__hotel__mobile {
+		font-size: 11px;
+		line-height: 17px;
+	}
+
+	.questions_section {
+		width: 100%;
+		background: #131313;
+		box-shadow: none;
+		filter: none;
+		margin-top: 30px;
+	}
+
+	.questions__top {
+		flex-direction:column;
+		align-items: center;
+		margin-left: -50px;
+	}
+
+
+	.questions__bottom {
+		margin-left: 90px;
+	}
+
+
+	.questions__bottom input {
+		align-items: center;
+    	width: 340px;
+	}
+
+	.questions__info {
+		width: 340px;
+		background: #131313;
+	}
+
+	.button_none {
+		display: none;
+	}
+
+	.button_mobile {
+		width: 340px;
+		margin-top: 60px;
+	}
+
+	.questions_submit label {
+    	margin-bottom: -10px;
+	}
+
+	.questions__agreement {
+		margin-top: -30px;
+	}
+
+	.map_section {
+		width: 0px;
+		height: 0px;
+		background: none;
+	}
+
+	.map_mobile {
+		width: 340px;
+		height: 255px;
+		background: url(../img/map.png);
+		margin-left: -30px;
+	    margin-top: 190px;
+	}
+
+	.address_icons img {
+		width: 39px;
+		height: 39px;
+	}
+
+	.address_text {
+		display: none;
+	}
+
+	.address_text_mobile {
+		display: block;
+	}
+
+	.planwork,
+	.sixthsection,
+	footer,
+	.fifthsection__link,
+	.fifthsection__middle,
+	.fifthsection__right
+	 {
+		display: none;
+	}
+	/*----------------fonts----------------*/
+
+	.title {
+		font-size: 23px;
+		line-height: 31px;
+	}
+
+	.subtitle {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	
+	.text__hotel__mobile {
+		font-size: 11px;
+		line-height: 17px;
+	}
+
+	.subtitle__hotel {
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	.thirdsection__text {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.text__camera {
+		font-size: 11px;
+		line-height: 19px;
+	}
+
+	.repair__text {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.repairsection_title {
+		font-size: 15px;
+		line-height: 21px;
+	}
+
+	.fifthsection__left p {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.questions__title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.address_text_mobile {
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+}
+
