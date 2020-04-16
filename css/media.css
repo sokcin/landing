@@ -3,10 +3,22 @@
 		display: none;
 	}
 
+	.header__menu {
+		display: flex;
+	}
+
 	.header__menu :nth-child(n+2) {
 		color: #FFF;
 		text-decoration: none;
-		margin-left: -60px;
+	}
+
+	.link {
+		padding-left: 0px;
+	}
+
+	.tel {
+		padding-right: 0px;
+		padding-left: 0px;
 	}
 
 	.button__header {
@@ -21,13 +33,11 @@
 		display: flex;
 		align-items: center;
 		height: 476px;
-}
-
+	}
 
 	.firstsection__wrap {
 		top: 0px;
 	}
-
 
 	.firstsection__buttons {
 		display: flex;
@@ -50,6 +60,10 @@
 	.button__wrap {
 		margin-top: 26px;
     	margin-left: 0px;
+	}
+
+	.button_none {
+		display: none;
 	}
 
 	.leftsection {
@@ -90,11 +104,14 @@
 		margin-bottom: 20px;
 	}
 
-	.fantasies__mobile {
+	.mobile_pic {
+		width: 340px;
+		height: 242px;
 		background-image: url(../img/roommobile.png);
-		margin-top: -155px;
-    	margin-left: 90px;
-
+		margin-bottom: 52px;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
 	}
 
 	.selector_left,
@@ -132,7 +149,6 @@
 		margin-left: 15px;
 		background-size: 50%;
 		margin-top: 15px;
-		
 	}
 
 	.secondsection {
@@ -152,27 +168,6 @@
 		margin-top: 68px;
 	}
 
-	.fifthsection {
-		margin-top: 0px;
-	}
-
-
-	.fifthsection__left {
-		margin-top: 0px;
-		margin-left: 0px;
-	}
-
-	.fifthsection__left p {
-		text-align: center;
-	}
-
-	.fifthsection__background {
-		display: flex;
-		justify-content: center;
-		background-image: none;
-		height: 200px;
-	}
-
 	.input__forms {
 		flex-direction: column;
 	}
@@ -183,6 +178,7 @@
 
 	.input__info {
 		background: #131313;
+		color: #FFF;
 	}
 
 	.request__title {
@@ -210,6 +206,11 @@
 		margin-bottom: 60px;
 	}
 
+	.input__mobile input::placeholder {
+		color: #FFF;
+	}
+
+
 	.rightsection {
 		display: none;
 	}
@@ -217,6 +218,7 @@
 	.repairsections {
 		flex-direction: column;
 		align-items: center;
+		margin-bottom: 250px;
 	}
 
 	.repairsection {
@@ -242,96 +244,102 @@
 		line-height: 17px;
 	}
 
-	.questions_section {
-		width: 100%;
-		background: #131313;
-		box-shadow: none;
-		filter: none;
-		margin-top: 30px;
-	}
-
-	.questions__top {
-		flex-direction:column;
-		align-items: center;
-		margin-left: -50px;
-	}
-
-
-	.questions__bottom {
-		margin-left: 90px;
-	}
-
-
-	.questions__bottom input {
-		align-items: center;
-    	width: 340px;
-	}
-
-	.questions__info {
-		width: 340px;
-		background: #131313;
-	}
-
-	.button_none {
-		display: none;
-	}
-
-	.button_mobile {
-		display: block;
-		width: 340px;
-		margin-top: 60px;
-	}
-
-	.button_mobile_submit {
-		width: 340px;
-		margin-top: 60px;
-	}
-
-	.questions_submit label {
-    	margin-bottom: -10px;
-	}
-
-	.questions__agreement {
-		margin-top: -30px;
-	}
-
-	.map_section {
-		width: 0px;
-		height: 0px;
-		background: none;
-	}
-
-	.map_mobile {
-		width: 340px;
-		height: 255px;
-		background: url(../img/map.png);
-		margin-left: -30px;
-	    margin-top: 190px;
-	}
-
-	.address_icons img {
-		width: 39px;
-		height: 39px;
-	}
-
-	.address_text {
-		display: none;
-	}
-
-	.address_text_mobile {
-		display: block;
-	}
-
 	.planwork,
 	.sixthsection,
 	footer,
-	.fifthsection__link,
-	.fifthsection__middle,
-	.fifthsection__right
-	 {
+	.fifthsection,
+	.seventhsection,
+	.eighth_section {
 		display: none;
 	}
-	/*----------------fonts----------------*/
+
+	.mobile_block {
+		display: block;
+	}
+
+	.mobile_wrap {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: #131313;
+	}
+
+	.mobile_title,
+	.mobile_address {
+		text-align: center;
+		color: #E3B873;
+		text-transform: uppercase;
+	}
+
+	.mobile_title {
+		margin-bottom: 35px;
+		margin-top: -220px;
+	}
+
+	.questions__title {
+		margin-bottom: 52px;
+	}
+
+	.mobile_form {
+		width: 340px;
+	}
+
+	.mobile_data {
+		display: flex;
+		flex-direction: column;
+		width: 340px;
+		margin-bottom: 60px;
+	}
+
+	.mobile_data input,
+	.mobile_data input::placeholder {
+		color: #FFF;
+	}
+
+	.questions_margin {
+		margin-bottom: 20px;
+	}
+
+	.mobile_info {
+		border: none;
+		border-bottom: 1px solid grey;
+		color: #363636;
+		padding: 9px 0;
+		outline: none;
+		font-size: 14px;
+		background: #131313;
+	}
+
+	.mobile_agreement {
+		margin-bottom: 67px;
+	}
+
+	.container_mobile {
+		color: #FFF;
+	}
+
+	.button_mobile,
+	.button_mobile_camera {
+		width: 340px;
+	}
+
+	.button_mobile {
+		margin-bottom: 46px;
+	}
+
+	.button_mobile_camera {
+		display: block;
+    	width: 340px;
+    	margin-top: 60px;x;
+	}
+
+	.mobile_map {
+		width: 340px;
+		height: 255px;
+		background: url(../img/mapmobile.png);
+		margin-bottom: 42px;
+	}
+	/*---------------------------------fonts------------------------------------*/
 
 	.title {
 		font-size: 23px;
@@ -390,4 +398,3 @@
 	}
 
 }
-

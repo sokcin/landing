@@ -14,7 +14,9 @@
 .left_button,
 .right_button,
 .questions__title,
-.address_text {
+.address_text,
+.mobile_title,
+.mobile_address {
 	font-family: Yeseva One, 'Times New Roman' , Times, serif;
 	font-style: normal;
 	font-weight: normal;
@@ -38,7 +40,7 @@
 .repair__text,
 .title_clients_header,
 .address_text,
-..questions__title {
+.questions__title {
 	font-size: 20px;
 	line-height: 28px;
 }
@@ -53,7 +55,8 @@
 	line-height: 19px;
 }
 
-.client_title h3 {
+.client_title h3,
+.mobile_address {
 	font-size: 18px;
 	line-height: 23px;
 }
@@ -62,4 +65,9 @@
 .right_button {
 	font-size: 17px;
 	line-height: 24px;
+}
+
+.mobile_title {
+	font-size: 22px;
+	line-height: 30px;
 }

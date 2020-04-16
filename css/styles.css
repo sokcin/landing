@@ -130,10 +130,6 @@ footer {
 	font-size: 13px;
 }
 
-.button_mobile {
-	display: none;
-}
-
 .videocontent__button{
 	display: flex;
 	justify-content: center;
@@ -143,6 +139,10 @@ footer {
 	border-radius: 50%;
 	background: #E3B873;
 	box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+}
+
+.button_mobile_camera {
+	display: none;
 }
 
 .repairsection_button {
@@ -468,7 +468,8 @@ footer {
 	font-size: 14px;
 }
 
-.container {
+.container,
+.container_mobile {
 	position: relative;
 	padding-left: 25px;
 	margin-bottom: 12px;
@@ -477,7 +478,8 @@ footer {
 	font-size: 14px;
 }
 
-.container input {
+.container input,
+.container_mobile input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;
@@ -494,11 +496,13 @@ footer {
 	background-color: #E3B873;
 }
 
-.container:hover input ~ .checkmark {
+.container:hover input ~ .checkmark,
+.container_mobile:hover input ~ .checkmark {
   	background-color: #E3B873;
 }
 
-.container input:checked ~ .checkmark {
+.container input:checked ~ .checkmark,
+.container_mobile input:checked ~ .checkmark {
   	background-color: #E3B873;
 }
 
@@ -508,11 +512,13 @@ footer {
 	display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+.container input:checked ~ .checkmark:after,
+.container_mobile input:checked ~ .checkmark:after {
 	display: block;
 }
 
-.container .checkmark:after {
+.container .checkmark:after,
+.container_mobile .checkmark:after {
 	left: 6px;
 	top: 3px;
 	width: 4px;
@@ -1004,4 +1010,8 @@ footer {
 	text-align: center;
 	text-transform: uppercase;
 	color: #E3B873;
+}
+
+.mobile_block {
+	display: none;
 }
