@@ -224,10 +224,21 @@
 	.repairsection {
 		margin-right: 0px;
 		margin-bottom: 59px;
+		width: 340px;
 	}
 
 	.repairsection_text {
 		margin-left: 0px;
+		width: 290px;
+	}
+
+
+	.background_1,
+	.background_2,
+	.background_3 {
+		width: 330px;
+		height: 354px;
+		background-size: cover;
 	}
 
 	.seventhsection {
