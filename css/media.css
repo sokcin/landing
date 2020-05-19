@@ -344,11 +344,15 @@
     	margin-top: 60px;x;
 	}
 
-	.mobile_map {
-		width: 340px;
-		height: 255px;
-		background: url(../img/mapmobile.png);
-		margin-bottom: 42px;
+	.frame_map {
+		display: none;
+	}
+
+	.frame_map--mobile {
+	width: 340px;
+	height: 255px;
+	border: 0px;
+	filter: grayscale(100%);
 	}
 	/*---------------------------------fonts------------------------------------*/
 
@@ -550,11 +554,5 @@
 
 	.mobile_data {
 		width: 240px;
-	}
-
-	.mobile_map {
-		width: 180px;
-		height: 155px;
-		background-size: cover;
 	}
 }

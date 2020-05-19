@@ -994,10 +994,11 @@ footer {
 	display: none;
 }
 
-.map_section {
+.frame_map {
 	width: 925px;
 	height: 465px;
-	background: url(../img/map.png);
+	border: 0px;
+	filter: grayscale(100%);
 }
 
 .address_icons img {
